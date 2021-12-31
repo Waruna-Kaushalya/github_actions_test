@@ -40,6 +40,6 @@ jobs:
         image: warunakaushalya/demo-apps
         registry: docker.io
         context: ./
-        file: ./Dockerfile
+        file: ./dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}

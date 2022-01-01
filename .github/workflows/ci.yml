@@ -37,7 +37,7 @@ jobs:
     - name: Build and push docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: warunakaushalya/github_action_test2
+        image: warunakaushalya/demo-apps
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
